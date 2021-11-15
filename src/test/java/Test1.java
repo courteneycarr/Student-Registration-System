@@ -7,7 +7,7 @@ public class Test1 {
 
     @Test
     void shouldGetUsername(){
-        Student student = new Student();
-        Assertions.assertEquals("Steve20",student.getUsername("Steve",20));
+        Student student = new Student("Steve",20,"s@g.c","10/12/1999");
+        Assertions.assertEquals("Steve20",student.getUsername());
     }
 }

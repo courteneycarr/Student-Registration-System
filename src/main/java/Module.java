@@ -42,5 +42,15 @@ public class Module {
     public void setModuleID(String moduleID) {
         this.moduleID = moduleID;
     }
+
+    @Override
+    public String toString() {
+        return "Module{" +
+                "moduleName='" + moduleName + '\'' +
+                ", moduleID='" + moduleID + '\'' +
+                ", students=" + students +
+                ", courses=" + courses +
+                '}';
+    }
 }
 

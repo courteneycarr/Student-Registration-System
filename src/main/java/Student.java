@@ -15,7 +15,7 @@ public class Student {
     private ArrayList<Module> modules = new ArrayList();
 
     // construct a new student with given fields
-    public Student() {
+    public Student(String name, int age, String email, String dateOB) {
         this.name="";
         this.age=0;
         this.email="";
@@ -27,6 +27,7 @@ public class Student {
 
     public void addCourses(Course c) {
         courses.add(c);
+        c.addStudents(this);
     }
 
     public void addModules(Module m) {
@@ -34,7 +35,7 @@ public class Student {
     }
 
     //Getter and Setter methods
-    public String getUsername(String name, int age) {
+    public String getUsername() {
         return name + age;
     }
 
@@ -76,5 +77,18 @@ public class Student {
 
     public void setIdNumber(int idNumber) {
         this.idNumber = idNumber;
+    }
+
+    @Override
+    public String toString() {
+        return "Student{" +
+                "name='" + name + '\'' +
+                ", age=" + age +
+                ", email='" + email + '\'' +
+                ", dateOB='" + dateOB + '\'' +
+                ", idNumber=" + idNumber +
+                ", courses=" + courses +
+                ", modules=" + modules +
+                '}';
     }
 }
