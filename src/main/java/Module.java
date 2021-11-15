@@ -48,8 +48,6 @@ public class Module {
         return "Module{" +
                 "moduleName='" + moduleName + '\'' +
                 ", moduleID='" + moduleID + '\'' +
-                ", students=" + students +
-                ", courses=" + courses +
                 '}';
     }
 }

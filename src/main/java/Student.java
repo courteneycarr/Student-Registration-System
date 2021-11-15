@@ -87,8 +87,6 @@ public class Student {
                 ", email='" + email + '\'' +
                 ", dateOB='" + dateOB + '\'' +
                 ", idNumber=" + idNumber +
-                ", courses=" + courses +
-                ", modules=" + modules +
                 '}';
     }
 }

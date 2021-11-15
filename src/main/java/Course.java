@@ -63,8 +63,6 @@ public class Course {
     public String toString() {
         return "Course{" +
                 "name='" + name + '\'' +
-                ", modules=" + modules +
-                ", students=" + students +
                 ", start=" + start +
                 ", end=" + end +
                 '}';
