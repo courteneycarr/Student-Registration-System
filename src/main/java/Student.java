@@ -16,10 +16,10 @@ public class Student {
 
     // construct a new student with given fields
     public Student(String name, int age, String email, String dateOB) {
-        this.name="";
-        this.age=0;
-        this.email="";
-        this.dateOB="";
+        this.name= name;
+        this.age=age;
+        this.email=email;
+        this.dateOB=dateOB;
 
     }
 

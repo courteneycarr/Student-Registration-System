@@ -1,8 +1,3 @@
-/******************
- ***Auhtor: Courteney Carr
- ***
- *******************/
-
 import java.util.ArrayList;
 
 public class Module {
